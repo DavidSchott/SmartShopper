@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<body>
+  <STORES>
+    <STORE CATEGORY="Furniture" LOCATION="125666" NAME="John Lewis">
+      <SECTION NAME="Bed">
+          <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
+      </SECTION>
+
+       <SECTION NAME="Chair">
+          <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
+      </SECTION>
+    </STORE>
+
+    <STORE CATEGORY="Furniture" LOCATION="125666" NAME="Jenners">
+      <SECTION NAME="Bed">
+          <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
+      </SECTION>
+
+       <SECTION NAME="Chair">
+          <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
+      </SECTION>
+    </STORE>
+
+    <STORE CATEGORY="Furniture" LOCATION="125666" NAME="Laura Ashley">
+      <SECTION NAME="Bed">
+          <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
+      </SECTION>
+
+       <SECTION NAME="Chair">
+          <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
+          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
+      </SECTION>
+    </STORE>
+
+
+  </STORES>
+    </body>
