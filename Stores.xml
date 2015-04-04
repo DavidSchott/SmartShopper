@@ -18,7 +18,7 @@
       </SECTION>
     </STORE>
 
-    <STORE CATEGORY="Furniture" LOCATION="(41.49008, -71.312795)" NAME="Jenners">
+    <STORE CATEGORY="Clothes" LOCATION="(41.49008, -71.312795)" NAME="Jenners">
       <SECTION NAME="Bed">
           <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
           <PRODUCT PRICE="1" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>

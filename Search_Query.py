@@ -10,7 +10,6 @@ class Search_Query:
         self.price_range = price_range
         self.output_length = output_length
 
-
 #Example used as template
 #DOMTree = xml.dom.minidom.parse("Stores.xml")
 collection = ET()
@@ -18,7 +17,7 @@ root = collection.parse("Stores.xml")
 product_node = root[0][0][0] # <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
 radius = 500
 store_location = "(41.49008, -71.312796)"
-product_category = "Furniture"
+product_section = "Bed"
 price_range = 50
 output_length = 3
 
@@ -28,6 +27,7 @@ def getCoords(co_ord):
     x = float(co_ord_list[0][1:])
     y = float(co_ord_list[1][:-1])
     return [x,y]
+
 """Filters the stores by location"""
 def filterLocation():
     for store in root.findall("STORE"):
@@ -36,11 +36,19 @@ def filterLocation():
             root.remove(store)
     return root
 
+"""Removes products from stores with unmatching sections"""
+def filterSection():
+#    sections = root.findall("*/SECTION")
+    for sections in root:
+        for section in sections:
+            if (section.get("NAME") != product_section):
+                sections.remove(section)
+    return root
 
 def main():
-    product_node = root[0][0][0]
-    subcollection = ET(filterLocation())
-    subcollection.write('newpred.xml', xml_declaration=True)
+    filterLocation()
+    subcollection = ET(filterSection())
+    subcollection.write('newStores.xml', xml_declaration=True)
 
 
 
