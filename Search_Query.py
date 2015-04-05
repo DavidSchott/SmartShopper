@@ -1,6 +1,7 @@
 __author__ = 'David'
 from xml.dom.minidom import parse
 import xml.dom.minidom
+import Queue
 from xml.etree.ElementTree import ElementTree as ET
 from geopy.distance import vincenty as vincent
 class Search_Query:
@@ -38,17 +39,45 @@ def filterLocation():
 
 """Removes products from stores with unmatching sections"""
 def filterSection():
-#    sections = root.findall("*/SECTION")
     for sections in root:
         for section in sections:
             if (section.get("NAME") != product_section):
                 sections.remove(section)
     return root
+"""Removes products that do not satify price-range criteria"""
+def filterPriceRange():
+    #q = Queue.PriorityQueue(output_length)
+    product_price = float(product_node.get("PRICE"))
+    for store in root:
+        for section in store:
+            productNo = len(section)
+            i = 0
+            while(i<productNo):
+                price_temp = float(section[i].get("PRICE"))
+                print(price_temp)
+                print("i: "+ str(i)+" number of products-1: "+str(productNo))
+                if (product_price+price_range < price_temp or product_price-price_range > price_temp):
+                    print("Deleted product with price above: ")
+                    #print(price_temp)
+                    section.remove(section[i])
+                    productNo-=1
+                    i-=1
+                i+=1
+    return root
+
+#def listcreation():
 
 def main():
     filterLocation()
-    subcollection = ET(filterSection())
-    subcollection.write('newStores.xml', xml_declaration=True)
+    filterSection()
+    filterPriceRange()
+    subcollection = ET(root)
+    subcollection.write('FilteredPrices.xml', xml_declaration=True)
+    """print("If Greater than: ")
+    print(float(product_node.get("PRICE"))+50)
+    print("Or Less than: ")
+    print(float(product_node.get("PRICE"))-50)
+    print("Delete")"""
 
 
 

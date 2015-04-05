@@ -2,55 +2,55 @@
   <STORES>
     <STORE CATEGORY="Furniture" LOCATION="(41.49008, -71.312796)" NAME="John Lewis">
       <SECTION NAME="Bed">
-          <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
+          <PRODUCT PRICE="123" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
+          <PRODUCT PRICE="143" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
+          <PRODUCT PRICE="198" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
+          <PRODUCT PRICE="122" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
+          <PRODUCT PRICE="190" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
       </SECTION>
 
        <SECTION NAME="Chair">
-          <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
+          <PRODUCT PRICE="134" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
+          <PRODUCT PRICE="152" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
+          <PRODUCT PRICE="111" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
+          <PRODUCT PRICE="123" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
+          <PRODUCT PRICE="143" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
       </SECTION>
     </STORE>
 
     <STORE CATEGORY="Clothes" LOCATION="(41.49008, -71.312795)" NAME="Jenners">
       <SECTION NAME="Bed">
-          <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
+          <PRODUCT PRICE="124" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
+          <PRODUCT PRICE="158" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
+          <PRODUCT PRICE="198" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
+          <PRODUCT PRICE="199" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
+          <PRODUCT PRICE="300" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
       </SECTION>
 
        <SECTION NAME="Chair">
-          <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
+          <PRODUCT PRICE="511" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
+          <PRODUCT PRICE="401" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
+          <PRODUCT PRICE="211" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
+          <PRODUCT PRICE="341" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
+          <PRODUCT PRICE="531" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
       </SECTION>
     </STORE>
 
     <STORE CATEGORY="Furniture" LOCATION="(31.499498, -75.695391)" NAME="Laura Ashley">
       <SECTION NAME="Bed">
-          <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
+          <PRODUCT PRICE="231" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
+          <PRODUCT PRICE="561" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
+          <PRODUCT PRICE="189" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
+          <PRODUCT PRICE="134" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
+          <PRODUCT PRICE="100" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
       </SECTION>
 
        <SECTION NAME="Chair">
-          <PRODUCT PRICE="1" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
-          <PRODUCT PRICE="1" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
+          <PRODUCT PRICE="175" NAME="black chair" GEOID="125665" URL="http://www.buyme.com/product=125665"></PRODUCT>
+          <PRODUCT PRICE="871" NAME="blue chair" GEOID="125664" URL="http://www.buyme.com/product=125664"></PRODUCT>
+          <PRODUCT PRICE="981" NAME="blue chair" GEOID="125663" URL="http://www.buyme.com/product=125663"></PRODUCT>
+          <PRODUCT PRICE="991" NAME="blue chair" GEOID="125662" URL="http://www.buyme.com/product=125662"></PRODUCT>
+          <PRODUCT PRICE="381" NAME="blue chair" GEOID="125661" URL="http://www.buyme.com/product=125661"></PRODUCT>
       </SECTION>
     </STORE>
 
