@@ -1,7 +1,4 @@
 __author__ = 'David'
-from xml.dom.minidom import parse
-import xml.dom.minidom
-import Queue
 from xml.etree.ElementTree import ElementTree as ET
 from geopy.distance import vincenty as vincent
 
@@ -41,7 +38,6 @@ class Search_Query:
         root = ET(root)
         root.write("SearchResults.xml", xml_declaration=True)
 
-
     """This should in theory be the only public method. Updates and returns search-results in a list of XML-Elements"""
     def request(self):
         self.filterLocation()
@@ -73,7 +69,6 @@ class Search_Query:
         return root
     """Removes products that do not satify price-range criteria"""
     def filterPriceRange(self):
-        #q = Queue.PriorityQueue(output_length)
         product_price = float(self.product_node.get("PRICE"))
         for store in root:
             for section in store:
@@ -81,18 +76,15 @@ class Search_Query:
                 i = 0
                 while(i<productNo):
                     price_temp = float(section[i].get("PRICE"))
-                    print(price_temp)
-                    print("i: "+ str(i)+" number of products-1: "+str(productNo))
                     if (product_price+self.price_range < price_temp or product_price-self.price_range > price_temp):
                         print("Deleted product with price above: ")
-                        #print(price_temp)
                         section.remove(section[i])
                         productNo-=1
                         i-=1
                     i+=1
         return root
 
-    def getAllProducts(self):
+    def getRestProducts(self):
         list_xml =[]
         for store in root:
             for section in store:
@@ -104,7 +96,7 @@ class Search_Query:
     """Outputs a list of XML-Nodes that satisfy search criteria"""
     def getSearchResults(self):
         products = []
-        list_xml  = self.getAllProducts()
+        list_xml  = self.getRestProducts()
         list_sorted =sorted(list_xml,key=lambda x: x[1], reverse=False)
         for i in range(len(list_sorted)):
             if i < self.output_length:
