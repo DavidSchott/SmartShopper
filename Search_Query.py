@@ -20,13 +20,27 @@ output_length = 3"""
 
 class Search_Query:
     #Last 2 can be automated using product_node.
-    def __init__(self,product_node,radius,price_range,output_length,store_location="(41.49008, -71.312796)",product_section="Bed"):
-        self.store_location = store_location
-        self.product_section = product_section
-        self.product_node = product_node
-        self.radius = radius
-        self.price_range = price_range
-        self.output_length = output_length
+    def __init__(self):
+        #self,product_node,radius,price_range,output_length,store_location,product_section):
+        self.store_location = "(41.49008, -71.312796)"
+        self.product_section = "Bed"
+        self.product_node = root[0][0][0]
+        self.radius = 500
+        self.price_range = 50
+        self.output_length = 4
+
+    """Returns the complete filtered search-result in terms of an XML-Document"""
+    def buildXML(self):
+        global root
+        list = self.request()
+        for store in root:
+            for category in store:
+                for product in category:
+                    if not(product in list):
+                        category.remove(product)
+        root = ET(root)
+        root.write("SearchResults.xml", xml_declaration=True)
+
 
     """This should in theory be the only public method. Updates and returns search-results in a list of XML-Elements"""
     def request(self):
